@@ -1,0 +1,21 @@
+# Environment
+.env
+
+# Generated output (recordings, frames, clips, sessions)
+output/*
+!output/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+backend/.venv/
+backend/poetry.toml
+
+# Node (legacy React prototype in client/)
+node_modules/
+dist/
+
+# Misc
+*.log
+.DS_Store
